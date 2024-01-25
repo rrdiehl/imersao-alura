@@ -1,7 +1,7 @@
 body {
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
-
 
 .sidebar {
     position: fixed;
@@ -45,11 +45,10 @@ body {
 }
 
 .sidebar nav ul a {
-    color: #fff;
+    color: var(--font-color);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar_biblioteca {
@@ -59,7 +58,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #fff;
+    color: var(--font-color);
     font-size: 12px;
     font-weight: 600;
     margin-top: 10px;
@@ -73,12 +72,11 @@ body {
 .sidebar_biblioteca .biblioteca_button {
     display: flex;
     margin-right: 10px;
-    color: #fff;
+    color: var(--font-color);
     background-color: transparent;
     border: 0px;
     font-size: 16px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -101,9 +99,8 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #242424;
-    color: #fff;
-    font-family: "DM Sans", sans-serif;
+    background-color: var(--bg-color-24);
+    color: var(--font-color);
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0px;
@@ -138,7 +135,6 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -152,7 +148,7 @@ body {
 }
 
 .sidebar .cookies a {
-    color: #fff;
+    color: var(--font-color);
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
@@ -167,7 +163,7 @@ body {
     background-color: transparent;
     border: 1px solid #878787;
     border-radius: 20px;
-    color: #fff;
+    color: var(--font-color);
     font-weight: bold;
     cursor: pointer;
     width: 170px;
@@ -178,6 +174,7 @@ body {
 .footer_premium {
     display: flex;
     position: fixed;
+    border-radius: 40px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -187,8 +184,7 @@ body {
 }
 
 .footer_premium .footer_premium_textdiv {
-    color: #fff;
-    font-family: "DM Sans", sans-serif;
+    color: var(--font-color);
     font-weight: 400;
     font-size: 14px;
 }
@@ -223,7 +219,6 @@ body {
 .footer_premium_button_text {
     justify-content: center;
     align-items: center;
-    font-family: "DM Sans", sans-serif;
     color: #000000;
     font-size: 16px;
     font-weight: bold;

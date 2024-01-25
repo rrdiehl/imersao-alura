@@ -1,0 +1,124 @@
+.container_offer {
+    height: 68vh;
+    max-width: 80vw;
+    padding-top: 16px;
+    margin-left: 330px;
+    margin-right: 65px;
+    border-radius: 10px;
+    background-color: var(--bg-color-12);
+}
+
+.offer_text {
+    margin: 24px;
+}
+
+.offer_text #welcome {
+    color: var(--font-color);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer_text .navegar {
+    color: var(--font-color);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.offer_playlist_scroll {
+    max-height: 43vh;
+    margin: 24px;
+    overflow-y: auto;
+}
+
+.offer_playlist_list img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg) translate(18%, -2%);
+}
+
+.offer_playlist_list .offer_playlist_grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    grid-gap: 32px;
+    margin: 0 auto;
+}
+
+.cards {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.cards span {
+    padding: 16px;
+    position: absolute;
+    color: var(--font-color);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card1 {
+    background-color: var(--card1);
+}
+
+.card2 {
+    background-color: var(--card2);
+}
+
+.card3 {
+    background-color: var(--card3);
+}
+
+.card4 {
+    background-color: var(--card4);
+}
+
+.card5 {
+    background-color: var(--card5);
+}
+
+.card6 {
+    background-color: var(--card6);
+}
+
+.card7 {
+    background-color: var(--card7);
+}
+
+.card8 {
+    background-color: var(--card8);
+}
+
+.card9 {
+    background-color: var(--card9);
+}
+
+.card10 {
+    background-color: var(--card10);
+}
+
+.card11 {
+    background-color: var(--card11);
+}
+
+.card12 {
+    background-color: var(--card12);
+}
+
+.card13 {
+    background-color: var(--card13);
+}
+
+.card14 {
+    background-color: var(--card14);
+}
+
+.card15 {
+    background-color: var(--card15);
+}
