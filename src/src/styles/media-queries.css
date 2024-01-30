@@ -1,5 +1,5 @@
-@media screen and (max-width: 1015px) {
-    .offer_playlist_grid {
+@media screen and (max-width: 1040px) {
+    .offer_playlist_list .offer_playlist_grid {
         grid-template-columns: 1fr 1fr;
     }
 }
